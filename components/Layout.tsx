@@ -2,6 +2,7 @@ import { ReactChild, ReactChildren, ReactElement } from "react";
 
 import styles from "../styles/Layout.module.css";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 type Props = {
   children: ReactChildren | ReactChild;
@@ -10,7 +11,10 @@ type Props = {
 function Layout({ children }: Props): ReactElement {
   return (
     <div className={styles.container}>
-      <main>{children}</main>
+      <div className={styles.content}>
+        <Navbar />
+        <main>{children}</main>
+      </div>
       <Footer />
     </div>
   );

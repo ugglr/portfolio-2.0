@@ -1,0 +1,16 @@
+.content {
+  height: 350px;
+}
+
+.title {
+  font-size: 10rem;
+}
+
+.subtitle {
+  font-size: 4rem;
+}
+
+.ctaContainer {
+  display: flex;
+  margin-top: 2rem;
+}
