@@ -1,4 +1,10 @@
 .container {
   background-color: black;
-  flex-grow: 1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  padding: 16px;
+  height: 50px;
+  margin-top: 300px;
+  width: 90vw;
 }

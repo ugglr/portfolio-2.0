@@ -3,6 +3,8 @@
   background-color: antiquewhite;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
   width: 100vw;
 }
 
